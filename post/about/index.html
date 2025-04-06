@@ -1,0 +1,179 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>关于 | 一中报</title>
+<link rel="shortcut icon" href="https://Xiaosh126.github.io/favicon.ico?v=1743954961963">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://Xiaosh126.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="关于 | 一中报 - Atom Feed" href="https://Xiaosh126.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="
+欢迎来到一中报，很高兴遇见你！🤝
+
+🏠 长期连载
+👨‍💻 主编：萧笙 出版：0d00 特别鸣谢：HT传媒，氧化钙
+⛹ 一中917合作出版社
+📬 主编QQ：2451445563
+..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://Xiaosh126.github.io">
+  <img class="avatar" src="https://Xiaosh126.github.io/images/avatar.png?v=1743954961963" alt="">
+  </a>
+  <h1 class="site-title">
+    一中报
+  </h1>
+  <p class="site-description">
+    非盈利！仅供学习交流使用 ——Xiaosh
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              关于
+            </h2>
+            <div class="post-info">
+              <span>
+                2019-01-25
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <blockquote>
+<p>欢迎来到一中报，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="长期连载">🏠 长期连载</h2>
+<h2 id="主编萧笙-出版0d00-特别鸣谢ht传媒氧化钙">👨‍💻 主编：萧笙 出版：0d00 特别鸣谢：HT传媒，氧化钙</h2>
+<h2 id="一中917合作出版社">⛹ 一中917合作出版社</h2>
+<h2 id="主编qq2451445563">📬 主编QQ：2451445563</h2>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E9%95%BF%E6%9C%9F%E8%BF%9E%E8%BD%BD">🏠 长期连载</a></li>
+<li><a href="#%E4%B8%BB%E7%BC%96%E8%90%A7%E7%AC%99-%E5%87%BA%E7%89%880d00-%E7%89%B9%E5%88%AB%E9%B8%A3%E8%B0%A2ht%E4%BC%A0%E5%AA%92%E6%B0%A7%E5%8C%96%E9%92%99">👨‍💻 主编：萧笙 出版：0d00 特别鸣谢：HT传媒，氧化钙</a></li>
+<li><a href="#%E4%B8%80%E4%B8%AD917%E5%90%88%E4%BD%9C%E5%87%BA%E7%89%88%E7%A4%BE">⛹ 一中917合作出版社</a></li>
+<li><a href="#%E4%B8%BB%E7%BC%96qq2451445563">📬 主编QQ：2451445563</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://Xiaosh126.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
